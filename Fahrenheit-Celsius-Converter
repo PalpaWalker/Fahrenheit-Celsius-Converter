@@ -1,0 +1,14 @@
+FahrenheitTemp = float(input("Please enter Fahrenheit temperature :"))
+
+
+CelsiusTemp = (((FahrenheitTemp-32)*5)/9)
+
+
+print("The original temp in Fahrenheit was " + str(FahrenheitTemp) + " converted to Celsius it is " + str(round(CelsiusTemp,2)))
+
+
+CelsiusTemp = float(input("Please enter the Celsius Temperature :"))
+
+FahrenheitTemp = 9/5*CelsiusTemp +32
+
+print("The original Celsius Temp was " + str(CelsiusTemp) + " converted to Fahrenheit is " + str(round(FahrenheitTemp,2)))
